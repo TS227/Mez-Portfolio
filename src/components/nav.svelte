@@ -1,3 +1,6 @@
+<script>
+	import '@fortawesome/fontawesome-free/css/all.min.css'
+</script>
 <nav class='w-100 p-4'>
 	<div class='flex justify-between'>
 		<div class='w-100'>
