@@ -3,7 +3,7 @@
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&display=swap');
 body {
-  background-color: #4A9ED2;
+  background-color: #4DB6F6;
   font-family: 'DM Serif Display', serif;
   font-style: italic;
 }
