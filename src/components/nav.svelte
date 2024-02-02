@@ -27,8 +27,9 @@
 			<i class="{isMenuOpen ? 'fa-solid fa-x' : 'fa-solid fa-bars'} fa-2xl"></i>
     </button>
   </div>
+</nav>
 	{#if isMenuOpen}
-		<div class='w-full flex justify-center'>
+		<div class='w-full flex justify-center absolute bg-blue'>
 			<ul class='text-center text-xl'>
 				<li><a href="/">Home</a></li>
 				<li><a href="/graphic design">Graphic Design</a></li>
@@ -42,21 +43,19 @@
 			</ul>
 		</div>
 	{/if}
-</nav>
 
 <style>
-  /* Add styles for burger menu */
   .burger-menu {
     cursor: pointer;
-    transition: transform 0.3s ease; /* Add a transition effect on the transform property */
+    transition: transform 0.3s ease;
 
   }
   .burger-menu.open {
-    transform: rotate(180deg); /* Apply a different transformation for the open state */
+    transform: rotate(180deg);
   }
 
   i {
-    transition: opacity 0.3s ease; /* Add a transition effect on the opacity property */
+    transition: opacity 0.3s ease;
   }
 
   .burger-menu.closed i.fa-bars {
@@ -75,12 +74,10 @@
     opacity: 1;
   }
 
-  /* Add media query to hide the menu on larger screens */
   @media (min-width: 768px) {
     .burger-menu {
       display: none;
     }
-    /* Show navigation links on larger screens */
     ul {
       display: flex;
     }
