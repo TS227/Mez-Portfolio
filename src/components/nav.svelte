@@ -9,7 +9,7 @@
 <nav class='w-100 p-4'>
   <div class='flex justify-between'>
     <div class='w-100'>
-      <a href="/"><h1 class='text-3xl font-bold'>Mary Ann Hadley</h1></a>
+      <a href="/"><h1 class='text-3xl font-bold'>Mary-Ann Hadley</h1></a>
     </div>
   {#if !isMenuOpen}
 		<ul class='flex justify-center hidden'>
