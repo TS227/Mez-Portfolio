@@ -1,4 +1,6 @@
 <script>
+  import { slide } from 'svelte/transition';
+
   let isMenuOpen = false;
 
   function toggleMenu() {
@@ -29,7 +31,7 @@
   </div>
 </nav>
 	{#if isMenuOpen}
-		<div class='w-full flex justify-center absolute bg-blue'>
+		<div class='w-full flex justify-center absolute bg-blue' transition:slide>
 			<ul class='text-center text-xl'>
 				<li><a href="/">Home</a></li>
 				<li><a href="/graphic design">Graphic Design</a></li>
